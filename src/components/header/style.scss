@@ -1,0 +1,175 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+.firstTop{
+    position: fixed;
+    width: 100%;
+    height: 6vw;
+    background:linear-gradient(white, rgb(238, 238, 238)) ;
+}
+.iconBar{
+    margin-top: 2%;
+    position: fixed;
+    right: 15%;
+}
+.iconChange{
+    margin-top: 2%;
+    position: fixed;
+    right: 10%;
+}
+.buttonFalse h1{
+    color: blue;
+}
+.buttonFalse{.firstSection{
+    background-color: black;
+}
+    .firstTop{
+    color: white;
+    background:linear-gradient(gray, black, rgb(27, 27, 89))
+}.title{
+    color: white;
+}
+.skills{
+    background-color: #f8a774;
+}
+    color: white;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    font-size: 25px;
+    background:linear-gradient(black, rgb(62, 55, 55))
+    
+}
+.buttonTrue{
+    height: 100%;
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+    font-size: 25px;
+    color: black;
+    background:linear-gradient(white, gray)
+}
+.divScroll img{
+    position: fixed;
+    margin-left: 1%;
+    margin-top: 1%;
+    width: 6%;
+    border-radius: 100%;
+    opacity: 100%;
+}
+.divScroll {
+    margin: 0%;
+    position: fixed;
+    width: 10vw;
+    opacity: 0.7;
+    height: 10vw;
+    border: 2px solid linear-gradient(rgb(247, 133, 11), orange);
+    -moz-border-radius:0 0 100% 0;
+    -webkit-border-radius:0 0  100% 0;
+    border-radius: 0 0 100% 0;
+    background: -webkit-linear-gradient(45deg,#f8a774 30%,#f6567e 90%);
+    -webkit-text-fill-color: transparent;
+}
+.divScroll1 {
+    position: fixed;
+    top: 10%;
+    right: -18%;
+    width: 35vw;
+    height: 35vw;
+    opacity: 0.2;
+     -moz-border-radius:100% 0  100% 100%;
+    -webkit-border-radius:100%  0 0 100%;
+    border-radius: 100% 0 0 100%;
+    background: -webkit-linear-gradient(45deg,#f8a774 30%,#f6567e 90%);
+    -webkit-text-fill-color: transparent;
+}
+.title{
+    color: black;
+    font-size: 1.4vw;
+    position: fixed;
+    text-align: justify;
+    margin-top: 2.5%;
+    margin-left: 15%;
+    font-family: 'Raleway', sans-serif;
+
+}
+.firstSection{
+    margin-top: 10%;
+    margin-bottom: 10%;
+    background-color: white;
+    border-top: 1px solid rgb(196, 187, 187);
+    border-bottom: 1px solid rgb(196, 187, 187);
+}
+.contact{
+    display: inline-block;
+    justify-content: end;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.2vw;
+}
+.iconHeader{
+    position: sticky;;
+    color: salmon;
+    color: linear-gradient(black, linen);
+    padding: 1.2%;
+}
+.iconHeader:hover{
+    background-color: rgb(0, 38, 37);
+    border-radius: 15%;
+}
+.iconsHeader{
+    margin-bottom: 4%;
+    margin-top: 10%;
+    justify-content: center;
+    position: relative;
+    right: -42%;
+    font-size: 2vw;
+}
+.description{
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.contact p {
+    text-align: center;
+    font-size: 1.6vw;
+}
+.imgPrincipal{
+    position: relative;
+    margin-top: 6%;
+    right: -43%;
+    width: 15vw;
+    border-radius: 100%;
+    align-items: center;
+}
+
+.personalInfo p{
+    font-size: 2vw;
+    justify-content: center;
+}
+.personalInfo{
+    border-top: 1px solid rgb(196, 187, 187);
+    margin: 6%;
+    border-bottom: 1px solid rgb(196, 187, 187);
+}
+.nameInfo{
+    margin-top: 5%;
+    right: -34%;
+    align-items: center;
+    position: relative;
+    font-size: 2.4vw;
+}
+.emailInfo{
+    position: relative;
+    font-size: 1.5vw;
+    right: -38%;
+    margin-bottom: 4%;
+}
+.info{
+    font-size: 1.5vw;
+    text-align: center;
+}
+.endPage{
+    font-size: 1vw;
+}
+

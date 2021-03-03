@@ -1,0 +1,38 @@
+import React, { Component } from 'react';
+import './style.scss'
+import me1 from '../../Images/me13.png'
+import 'font-awesome/css/font-awesome.min.css';
+
+
+class index extends Component {
+
+    render() {
+        return (
+            <div> 
+                <div className='contact'>
+                    <div className='firstSection'>
+                        <div className='iconsHeader'>
+                            <a href="/" className='iconHeader'><i className='fa fa-facebook-square'></i></a>
+                            <a href="/" className='iconHeader'><i className='fa fa-linkedin' style={{height:'18%'}}></i></a>
+                            <a href="/" className='iconHeader'><i className='fa fa-instagram'></i></a>
+                            <a href="/" className='iconHeader'><i className='fa fa-github'></i></a>
+                        </div>
+                        <h2 className='description'>A PASSIONATE WEB SOFTWARE DEVELOPER</h2>
+                        <p className='description'>Welcome to my website, I'm Javascript developer, with experience in developing web. Please feel free to read more about me, or you can check out my resume or contact me.</p>
+                    </div>
+                    <div className='personalInfo'>
+                        <img src={me1} className='imgPrincipal' alt=""/>
+                        <h2 className='nameInfo'>MARCOS MANZO TORRES</h2>
+                        <h3 className='emailInfo'>marcostorres.live@hotmail.com</h3>
+                    </div>
+                    <div className='info'>
+                        <h3>Who i am?</h3>
+                        <p>I am a mechatronics engineer, i live in guadalajara and from a very age, i have adopted programming as a lifestyle, something every day, a place where you never finish learning.</p>
+                    </div>
+                </div>
+            </div>
+        );
+    }
+}
+
+export default index;
