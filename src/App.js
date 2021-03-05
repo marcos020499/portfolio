@@ -3,7 +3,7 @@ import Home from './Pages/home';
 import Resume from './Pages/resume';
 import Projects from './Pages/projects';
 import Contact from './Pages/contact';
-import React, { useState, Component } from 'react';
+import React, { useState } from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
 function App()  {

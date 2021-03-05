@@ -15,10 +15,10 @@ class index extends Component {
                 <div>
                     <div className='firstSection'>
                         <div className='iconsHeader'>
-                            <a href="https://www.facebook.com/marcos.manzo.39" target='_blank' className='iconHeader'><i className='fa fa-facebook-square'></i></a>
-                            <a href="https://www.linkedin.com/in/marcos-manzo-568719159/" target='_blank' className='iconHeader'><i className='fa fa-linkedin' style={{height:'18%'}}></i></a>
-                            <a href="https://www.instagram.com/manzo_marcos/" target='_blank' className='iconHeader'><i className='fa fa-instagram'></i></a>
-                            <a href="https://github.com/marcos020499?tab=repositories" target='_blank' className='iconHeader'><i className='fa fa-github'></i></a>
+                            <a href="https://www.facebook.com/marcos.manzo.39"  className='iconHeader'><i className='fa fa-facebook-square'></i></a>
+                            <a href="https://www.linkedin.com/in/marcos-manzo-568719159/"  className='iconHeader'><i className='fa fa-linkedin' style={{height:'18%'}}></i></a>
+                            <a href="https://www.instagram.com/manzo_marcos/"  className='iconHeader'><i className='fa fa-instagram'></i></a>
+                            <a href="https://github.com/marcos020499?tab=repositories" className='iconHeader'><i className='fa fa-github'></i></a>
                         </div>
                         <h2 className='description'>A PASSIONATE WEB SOFTWARE DEVELOPER</h2>
                         <p className='description'>Welcome to my website, I'm Javascript developer, with experience in developing web. Please feel free to read more about me, or you can check out my resume or contact me.</p>
