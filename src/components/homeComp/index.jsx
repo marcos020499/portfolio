@@ -5,10 +5,7 @@ import 'font-awesome/css/font-awesome.min.css';
 import { withRouter } from 'react-router-dom';
 
 class index extends Component {
-    constructor(props){
-        super(props);
 
-    }
     render() {
         return (
             <div> 
