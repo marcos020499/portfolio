@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import './style.scss'
 import me1 from '../../Images/me13.png'
 import 'font-awesome/css/font-awesome.min.css';
-import store from '../../redux/store'
 import { withRouter } from 'react-router-dom';
 
 class index extends Component {
