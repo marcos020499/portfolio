@@ -29,7 +29,7 @@ class index extends Component {
                     <h1 className='title'>MARCOS MANZO TORRES</h1>
                     <span href='/' onClick={this.openModal} className='iconBar'><i className='fa fa-bars'></i></span>
                   <div className='divScroll'>
-                    <img className='me' src={me} alt=""/>
+                    <img className='me' style={{margin:'0%'}} src={me} alt=""/>
                 </div>
                 </div>
                 <div className='divScroll1'></div>

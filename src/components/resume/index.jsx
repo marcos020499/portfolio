@@ -9,7 +9,7 @@ class index extends Component {
                 <h2>RESUME</h2>
                 <div className='education'>
                     <h3>EDUCATION</h3>
-                    <p>mechatronics engineer</p>
+                    <p>Mechatronics Engineer</p>
                     <p>Polytechnic University of Guadalajara</p>
                 </div>
                 <div className='experience'>
