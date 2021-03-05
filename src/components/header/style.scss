@@ -3,36 +3,68 @@ body{
     padding: 0%;
 }
 .firstTop{
+    z-index: 1;
+    margin: 0%;
+    padding: 0%;
+    top: 0%;
     position: fixed;
     width: 100%;
     height: 6vw;
     background:linear-gradient(white, rgb(238, 238, 238)) ;
 }
+.title{
+    font-size: 1.8vw;
+    position: fixed, absolute;
+    text-align: justify;
+    margin-top: 2.5%;
+    margin-left: 15%;
+    font-family: 'Raleway', sans-serif;
+}
+@media screen and (max-width: 768px) {
+    .firstTop{
+        padding-bottom: 5%;
+    }
+    .title{
+        font-size: 50%;
+    }
+    .iconBar{
+        font-size: 8vw;
+        margin-top: -3%;
+        margin-right: 10%;
+    }
+    .iconChange{
+        font-size: 8vw;
+        margin-top: -3%;
+    }
+    .modal a{
+        font-size: 3.3vw;
+    }
+    .divScroll{
+        padding: 2%;
+    }
+    .divScroll img{
+        margin: 0%;
+    }
+}
 .iconBar{
-    margin-top: 2%;
+    top: 3%;
     position: fixed;
     right: 15%;
 }
 .iconChange{
-    margin-top: 2%;
+    z-index: 2;
+    top: 3%;
     position: fixed;
-    right: 10%;
+    margin-left: 88%;
 }
-.buttonFalse h1{
-    color: blue;
-}
-.buttonFalse{.firstSection{
-    background-color: black;
-}
+.buttonFalse{
+
+    .iconChange{
+        color: white;
+    }
     .firstTop{
-    color: white;
-    background:linear-gradient(gray, black, rgb(27, 27, 89))
-}.title{
-    color: white;
-}
-.skills{
-    background-color: #f8a774;
-}
+        background:linear-gradient(black, rgb(62, 55, 55)) 
+    }
     color: white;
     height: 100%;
     width: 100%;
@@ -42,24 +74,28 @@ body{
     
 }
 .buttonTrue{
+    .iconChange{
+        color: black;
+    }
     height: 100%;
     width: 100%;
     margin: 0%;
     padding: 0%;
     font-size: 25px;
     color: black;
-    background:linear-gradient(white, gray)
+    background:linear-gradient(white, rgb(220, 217, 217))
 }
 .divScroll img{
     position: fixed;
-    margin-left: 1%;
-    margin-top: 1%;
-    width: 6%;
+    margin-left: 0.2%;
+    margin-top: 0.2%;
+    width: calc(3vh + 5%);
     border-radius: 100%;
     opacity: 100%;
 }
 .divScroll {
     margin: 0%;
+    top: -0%;
     position: fixed;
     width: 10vw;
     opacity: 0.7;
@@ -84,92 +120,22 @@ body{
     background: -webkit-linear-gradient(45deg,#f8a774 30%,#f6567e 90%);
     -webkit-text-fill-color: transparent;
 }
-.title{
-    color: black;
-    font-size: 1.4vw;
-    position: fixed;
-    text-align: justify;
-    margin-top: 2.5%;
-    margin-left: 15%;
-    font-family: 'Raleway', sans-serif;
-
-}
 .firstSection{
     margin-top: 10%;
     margin-bottom: 10%;
-    background-color: white;
     border-top: 1px solid rgb(196, 187, 187);
     border-bottom: 1px solid rgb(196, 187, 187);
 }
-.contact{
-    display: inline-block;
-    justify-content: end;
+.modal{
+    font-size: 1.5vw;
     font-family: 'Raleway', sans-serif;
-    font-size: 1.2vw;
-}
-.iconHeader{
-    position: sticky;;
-    color: salmon;
-    color: linear-gradient(black, linen);
-    padding: 1.2%;
-}
-.iconHeader:hover{
-    background-color: rgb(0, 38, 37);
-    border-radius: 15%;
-}
-.iconsHeader{
-    margin-bottom: 4%;
-    margin-top: 10%;
-    justify-content: center;
-    position: relative;
-    right: -42%;
-    font-size: 2vw;
-}
-.description{
+    color: black;
     text-align: center;
-    margin-left: 10%;
-    margin-right: 10%;
+    text-overflow: ellipsis;
 }
-.contact p {
-    text-align: center;
-    font-size: 1.6vw;
+.modal a{
+    color: black;
 }
-.imgPrincipal{
-    position: relative;
-    margin-top: 6%;
-    right: -43%;
-    width: 15vw;
-    border-radius: 100%;
-    align-items: center;
+.modal a:hover{
+    color: #f6567e;
 }
-
-.personalInfo p{
-    font-size: 2vw;
-    justify-content: center;
-}
-.personalInfo{
-    border-top: 1px solid rgb(196, 187, 187);
-    margin: 6%;
-    border-bottom: 1px solid rgb(196, 187, 187);
-}
-.nameInfo{
-    margin-top: 5%;
-    right: -34%;
-    align-items: center;
-    position: relative;
-    font-size: 2.4vw;
-}
-.emailInfo{
-    position: relative;
-    font-size: 1.5vw;
-    right: -38%;
-    margin-bottom: 4%;
-}
-.info{
-    font-size: 1.5vw;
-    text-align: center;
-}
-.endPage{
-    font-size: 1vw;
-}
-

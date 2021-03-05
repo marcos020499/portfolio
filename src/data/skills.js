@@ -1,12 +1,12 @@
 const skills = [
     {
       title: 'Javascript',
-      competency: 4,
+      competency: 3,
       category: ['Web Development', 'Languages', 'Javascript'],
     },
     {
       title: 'Node.JS',
-      competency: 3,
+      competency: 2,
       category: ['Web Development', 'Javascript'],
     },
     {
@@ -30,33 +30,43 @@ const skills = [
       category: ['Data Science', 'Python'],
     },
     {
-      title: 'Typescript',
-      competency: 2,
-      category: ['Web Development', 'Languages', 'Javascript'],
-    },
-    {
       title: 'HTML + SASS/SCSS/CSS',
       competency: 3,
       category: ['Web Development', 'Languages'],
     },
     {
       title: 'Python',
-      competency: 5,
+      competency: 3,
       category: ['Languages', 'Python'],
     },
     {
       title: 'C++',
-      competency: 2,
+      competency: 1.5,
       category: ['Languages'],
     },
     {
-      title: 'MATLAB',
+      title: 'C',
+      competency: 2.5,
+      category: ['Languages'],
+    },
+    {
+      title: 'Matlab',
       competency: 2,
       category: ['Languages'],
     },
     {
       title: 'R',
       competency: 2,
+      category: ['Languages'],
+    },
+    {
+      title: 'VisualBasic',
+      competency: 2,
+      category: ['Languages'],
+    },
+    {
+      title: 'Java',
+      competency: 3,
       category: ['Languages'],
     },
 

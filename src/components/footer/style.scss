@@ -1,34 +1,32 @@
-.contactForm{
-    padding-top: 10%;
-    position: relative;
-    font-size: 2.5vw;
+.endPage a:hover{
+    color: coral;
 }
-.contactForm input{
-    position: relative;
-    font-size: 2.1vw;
+.footer{
+    margin-top: 0%;
+    margin-bottom: 2%;
 }
-.formInput{
-    margin-left: 10%;
-    margin-top: 0.5%;
-    padding-left: 1%;
-    padding-bottom: 1%;
-    padding-top: 1%;
-    padding-right: 60%;
-    font-family: 'Inconsolata', monospace;;
+.footer a{
+    font-size: 1.3vw;
 }
-.formInputMessage{
-    margin-left: 10%;
-    margin-top: 0.5%;
-    padding-left: 1%;
-    padding-bottom: 10%;
-    padding-top: 1%;
-    padding-right: 60%;
-    font-family: 'Inconsolata', monospace;;
+.footer p{
+    font-size: 1.3vw;
 }
-.submit{
-    margin-top: 3%;
-    margin-left: 12%;
-    padding: 1%;
-    font-family: 'Inconsolata', monospace;;
-    font-size: 2.4vw;
+@media screen and (max-width: 768px){
+    .footer a{
+        font-size: 2.3vw;
+    }
+    .footer p{
+        font-size: 2.3vw;
+    }
+    .footer{
+        margin-bottom: 5%;
+    }
+}
+.iconsFooter{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-bottom: 4%;
+    margin-top: 2%;
+    font-size: 2.2vw;
 }

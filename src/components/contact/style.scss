@@ -1,34 +1,64 @@
 .contactForm{
-    padding-top: 10%;
     position: relative;
     font-size: 2.5vw;
+    margin-top: 10%;
 }
 .contactForm input{
     position: relative;
-    font-size: 2.1vw;
+    font-size: 1.7vw;
 }
 .formInput{
-    margin-left: 10%;
+    position: relative;
+    width: 20%;
+    background: linear-gradient(white, rgb(208, 198, 198)) ;;
     margin-top: 0.5%;
+    margin-left: 9%;
     padding-left: 1%;
     padding-bottom: 1%;
     padding-top: 1%;
     padding-right: 60%;
-    font-family: 'Inconsolata', monospace;;
+    font-family: 'Raleway', sans-serif;
+    border: 3px solid salmon;
 }
 .formInputMessage{
-    margin-left: 10%;
+    background: linear-gradient(white, rgb(208, 198, 198)) ;;
+    position: relative;
+    width: 20%;
     margin-top: 0.5%;
+    margin-left: 9%;
     padding-left: 1%;
     padding-bottom: 10%;
     padding-top: 1%;
     padding-right: 60%;
-    font-family: 'Inconsolata', monospace;;
+    font-family: 'Raleway', sans-serif;
+    border: 3px solid salmon;
 }
 .submit{
     margin-top: 3%;
     margin-left: 12%;
     padding: 1%;
-    font-family: 'Inconsolata', monospace;;
-    font-size: 2.4vw;
+    font-family: 'Raleway', sans-serif;
+    font-size: 2.2vw;
+}
+.submit:hover{
+    color: salmon;
+}
+@media screen and (max-width: 768px){
+    .contactForm input{
+        font-size: 3.3vw;
+    }
+    .contactForm button{
+        font-size: 3.6vw;
+    }
+    .contactForm{
+        position: relative;
+        padding-top: 10%;
+    }
+    .formInput{
+        margin-left: 8%;
+        margin-bottom: 2%;
+    }
+    .formInputMessage{
+        margin-left: 8%;
+    }
 }

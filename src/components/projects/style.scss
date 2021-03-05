@@ -3,49 +3,61 @@ body{
    padding: 0%; 
 }
 .project h3{
-    
     color: black;
-    font-size: 4.5vw;
+    font-size: 2.5vw;
     padding-top: 8%;
+    padding-bottom: 5%;
     text-align: center;
     font-family: 'Raleway', sans-serif;
 }
 .project1{
-    position: absolute;
     width: 70%;
-    right: 15%;
 }
 .project1-1{
-    position: relative;
-    right: -21.2%;
-    margin-top: 1.7%;
-    width: 57.5%;
+    width: 30%;
+    position: static;
+    margin-bottom: 10%;
+}
+.project-one{
+    margin: 5%;
+    padding: 5%;
+    border: 1px solid gray;
 }
 .project-two{
-    margin-top: 10%;
+    margin: 5%;
+    padding: 5%;
+    border: 1px solid gray;
 }
 .project2{
-    position: absolute;
     width: 70%;
-    right: 15%;
 }
 .project2-1{
-    position: relative;
-    right: -21.2%;
-    margin-top: 1.7%;
-    width: 57.5%;
+    width: 30%;
+    position: static;
+    margin-bottom: 10%;
 }
 .project-three{
-    margin-top: 10%;
+    margin: 5%;
+    padding: 5%;
+    border: 1px solid gray;
 }
 .project3{
-    position: absolute;
     width: 70%;
-    right: 15%;
 }
-.project3-1{
-    position: relative;
-    right: -21.2%;
-    margin-top: 1.7%;
-    width: 57.5%;
+@media screen and (max-width: 768px){
+    .project h3{
+       font-size: 4vw; 
+    }
+    .project1{
+        width: 100%;
+    }
+    .project1-1{
+        width: 100%;
+    }
+    .project2{
+        width: 100%;
+    }
+    .project2-1{
+        width: 100%;
+    }
 }

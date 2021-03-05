@@ -1,19 +1,47 @@
-.skills h3{
-    background: linear-gradient(rgb(226, 144, 20), gray);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-size: 4.5vw;
-    position: relative;
+.resume{
     text-align: center;
-    font-family: 'Inconsolata', monospace;;
+    font-size: 1.6vw;
 }
-.iconsLenguajes{
-    width: 14%;
-    padding: 3%;
+@media screen and (max-width: 768px){
+    .resume{
+       font-size: 3.5vw;
+   } 
+   .resume p{
+       margin: 0%;
+       font-size: 3.2vw;
+   }
+   .resume h4{
+    margin: 0.4%;
 }
-p{
-    font-family: 'Inconsolata', monospace;;
-    font-size: 2.5vw;
-    justify-content: center;
-    text-align: center;
+   .education h3{
+       font-size: 4vw;
+       margin-bottom: 0%;
+       padding-bottom: 0%;
+   }
+   .experience h3{
+        font-size: 4vw;
+        margin-top: 0%;
+        margin-bottom: 0%;
+        padding-bottom: 0%; 
+   }
+   .skills h3{
+    font-size: 4vw;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    padding-bottom: 0%; 
+    padding-top: 0%;
+}
+}
+.education{
+    margin-top: 5%;
+    padding: 2%;
+    margin-bottom: 5%;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+.experience{
+    margin: 5%;
+    padding: 2%;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
 }

@@ -2,113 +2,52 @@ body{
     margin: 0%;
     padding: 0%;
 }
-.firstTop{
-    position: fixed;
-    top: 0%;
-    width: 100%;
-    height: 6vw;
-    padding-top: 0%;
-    background:linear-gradient(white, rgb(238, 238, 238)) ;
-}
-.iconBar{
-    margin-top: 2%;
-    position: fixed;
-    right: 15%;
-}
-.iconChange{
-    margin-top: 2%;
-    position: fixed;
-    right: 10%;
-}
-.buttonFalse h1{
-    color: blue;
-}
-.buttonFalse{.firstSection{
-    background-color: black;
-}
-.firstTop{
-    color: white;
-    background:linear-gradient(gray, black, rgb(27, 27, 89))
-}.title{
-    color: white;
-}
-    color: white;
-    height: 100%;
-    width: 100%;
-    align-items: center;
-    font-size: 25px;
-    background:linear-gradient(black, rgb(62, 55, 55))
-    
-}
-.buttonTrue{
-    height: 100%;
-    width: 100%;
-    margin: 0%;
-    padding: 0%;
-    font-size: 25px;
-    color: black;
-    background:linear-gradient(white, gray)
-}
-.divScroll img{
-    position: fixed;
-    margin-left: 1%;
-    margin-top: 1%;
-    width: 6%;
-    border-radius: 100%;
-    opacity: 100%;
-}
-.divScroll {
-    margin: 0%;
-    top: 0%;
-    position: fixed;
-    width: 10vw;
-    opacity: 0.7;
-    height: 10vw;
-    border: 2px solid linear-gradient(rgb(247, 133, 11), orange);
-    -moz-border-radius:0 0 100% 0;
-    -webkit-border-radius:0 0  100% 0;
-    border-radius: 0 0 100% 0;
-    background: -webkit-linear-gradient(45deg,#f8a774 30%,#f6567e 90%);
-    -webkit-text-fill-color: transparent;
-}
-.divScroll1 {
-    position: fixed;
-    top: 10%;
-    right: -18%;
-    width: 35vw;
-    height: 35vw;
-    opacity: 0.2;
-     -moz-border-radius:100% 0  100% 100%;
-    -webkit-border-radius:100%  0 0 100%;
-    border-radius: 100% 0 0 100%;
-    background: -webkit-linear-gradient(45deg,#f8a774 30%,#f6567e 90%);
-    -webkit-text-fill-color: transparent;
-}
-.title{
-    color: black;
-    font-size: 1.4vw;
-    position: fixed;
-    text-align: justify;
-    margin-top: 2.5%;
-    margin-left: 15%;
-    font-family: 'Raleway', sans-serif;
-
-}
-.firstSection{
-    margin-top: 10%;
-    margin-bottom: 10%;
-    background-color: white;
-    border-top: 1px solid rgb(196, 187, 187);
-    border-bottom: 1px solid rgb(196, 187, 187);
-}
 .contact{
     display: inline-block;
     justify-content: end;
     font-family: 'Raleway', sans-serif;
     font-size: 1.2vw;
 }
+@media screen and (max-width: 768px) {
+    .iconHeader{
+        padding: 0%;
+        font-size: 5vw;
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+    .iconsHeader{
+        margin-left: 0%;
+        align-content: center;
+        padding: 0%;
+    }
+    .personalInfo img{
+       width: 30%;
+       margin-left: 36%;
+    }
+    .personalInfo h2{
+        font-size: 4vw;
+        right: -22%;
+     }
+     .personalInfo a{
+        font-size: 4vw;
+        margin-left: 22%;
+     }
+     .description{
+         font-size: 4vw;
+         margin: 5%;
+     }
+     .info h3{
+         margin-bottom: 0%;
+         font-size: 4vw;
+     }
+     .info p{
+         font-size: 4vw;
+         margin-left: 6%;
+         margin-right: 6%;
+         text-align: center;
+     }
+}
 .iconHeader{
-    position: sticky;;
     color: salmon;
     color: linear-gradient(black, linen);
     padding: 1.2%;
@@ -118,12 +57,12 @@ body{
     border-radius: 15%;
 }
 .iconsHeader{
+    display: flex;
+    justify-content: center;
+    align-content: center;
     margin-bottom: 4%;
     margin-top: 10%;
-    justify-content: center;
-    position: relative;
-    right: -42%;
-    font-size: 2vw;
+    font-size: 2.2vw;
 }
 .description{
     text-align: center;
@@ -135,12 +74,11 @@ body{
     font-size: 1.6vw;
 }
 .imgPrincipal{
-    position: relative;
+    margin-left: 43%;
+    margin-right: 43%;
     margin-top: 6%;
-    right: -43%;
     width: 15vw;
     border-radius: 100%;
-    align-items: center;
 }
 
 .personalInfo p{
@@ -149,7 +87,8 @@ body{
 }
 .personalInfo{
     border-top: 1px solid rgb(196, 187, 187);
-    margin: 6%;
+    margin-left: 6%;
+    margin-right: 6%;
     border-bottom: 1px solid rgb(196, 187, 187);
 }
 .nameInfo{
@@ -160,12 +99,16 @@ body{
     font-size: 2.4vw;
 }
 .emailInfo{
-    position: relative;
     font-size: 1.5vw;
-    right: -38%;
-    margin-bottom: 4%;
+    text-align: center;
+    margin-bottom: 5%;
+    margin-left: 39%;
+    color: rgb(63, 42, 42);
 }
 .info{
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 0%;
     font-size: 1.5vw;
     text-align: center;
 }
