@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import './style.scss'
-import me from '../../Images/me.png'
 import me1 from '../../Images/me1.jpeg'
 import 'font-awesome/css/font-awesome.min.css';
 import Modal from '@bdenzer/react-modal';
