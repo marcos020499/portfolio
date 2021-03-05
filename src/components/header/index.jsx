@@ -1,9 +1,11 @@
 import React, { Component } from 'react';
 import './style.scss'
 import me from '../../Images/me.png'
+import me1 from '../../Images/me1.jpeg'
 import 'font-awesome/css/font-awesome.min.css';
 import Modal from '@bdenzer/react-modal';
 import { withRouter } from 'react-router-dom';
+
 
 class index extends Component {
     constructor(props) {
@@ -29,8 +31,9 @@ class index extends Component {
                     <h1 className='title'>MARCOS MANZO TORRES</h1>
                     <span href='/' onClick={this.openModal} className='iconBar'><i className='fa fa-bars'></i></span>
                   <div className='divScroll'>
-                    <img className='me' style={{margin:'0%'}} src={me} alt=""/>
-                </div>
+                  </div>
+                <img src={me1}className='me1' alt=""/>
+                
                 </div>
                 <div className='divScroll1'></div>
                     <Modal
