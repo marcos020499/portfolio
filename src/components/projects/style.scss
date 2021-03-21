@@ -2,13 +2,16 @@ body{
    margin: 0%;
    padding: 0%; 
 }
-.project h3{
+.project h2{
     color: black;
     font-size: 2.5vw;
     padding-top: 8%;
     padding-bottom: 5%;
     text-align: center;
     font-family: 'Raleway', sans-serif;
+}
+.project p {
+    font-size: 2vw;
 }
 .project1{
     width: 70%;
@@ -20,12 +23,12 @@ body{
 }
 .project-one{
     margin: 5%;
-    padding: 5%;
+    padding: 0 5% 5% 5%;
     border: 1px solid gray;
 }
 .project-two{
     margin: 5%;
-    padding: 5%;
+    padding: 0 5% 5% 5%;
     border: 1px solid gray;
 }
 .project2{
@@ -38,12 +41,18 @@ body{
 }
 .project-three{
     margin: 5%;
-    padding: 5%;
+    padding: 0 5% 5% 5%;
     border: 1px solid gray;
 }
 .project3{
     width: 70%;
 }
+.project3-1{
+    width: 30%;
+    position: static;
+    margin-bottom: 10%;
+}
+
 @media screen and (max-width: 768px){
     .project h3{
        font-size: 4vw; 
@@ -59,5 +68,14 @@ body{
     }
     .project2-1{
         width: 100%;
+    }
+    .project3{
+        width: 100%;
+    }
+    .project3-1{
+        width: 100%;
+    }
+    .project p {
+        font-size: 3.5vw;
     }
 }

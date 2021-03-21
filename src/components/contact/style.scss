@@ -1,7 +1,7 @@
 .contactForm{
     position: relative;
     font-size: 2.5vw;
-    margin-top: 10%;
+    padding-top: 14%;
 }
 .contactForm input{
     position: relative;
@@ -43,6 +43,14 @@
 .submit:hover{
     color: salmon;
 }
+
+.effectEmail {
+    color: rgb(252, 72, 51);
+    font-size: 2.2vw;
+    padding: 2%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
 @media screen and (max-width: 768px){
     .contactForm input{
         font-size: 3.6vw;
@@ -56,7 +64,8 @@
     }
     .contactForm{
         position: relative;
-        padding-top: 10%;
+        padding-top: 20%;
+        margin-top: 10%;
     }
     .formInput{
         margin-left: 8%;
@@ -64,5 +73,12 @@
     }
     .formInputMessage{
         margin-left: 8%;
+    }
+    .effectEmail{
+        font-size: 4vw;
+        margin-left: 5%;
+        margin-right: 5%;
+        justify-content: center;
+        text-align: center;
     }
 }
