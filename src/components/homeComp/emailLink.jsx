@@ -14,12 +14,6 @@ const messages = [
   'hola a todos',
   'welcome to my page',
   'this is my resume',
-  'you.can.also.email.me.with.specific.topics.like',
-  'just-saying-hi',
-  'please-work-for-us',
-  `thank's for visit my web site`,
-  'thanks',
-  `I'm a mexican friend`
 ];
 
 const useInterval = (callback, delay) => {
@@ -41,8 +35,8 @@ const useInterval = (callback, delay) => {
 };
 
 const EmailLink = () => {
-  const hold = 55; // ticks to wait after message is complete before rendering next message
-  const delay = 55; // tick length in mS
+  const hold = 35; // ticks to wait after message is complete before rendering next message
+  const delay = 35; // tick length in mS
 
   const [idx, updateIter] = useState(0); // points to current message
   const [message, updateMessage] = useState(messages[idx]);
@@ -68,7 +62,7 @@ const EmailLink = () => {
   return (
     <div
       className="inline-container"
-      style={validateText(message) ? {} : { color: 'red' , marginTop: '7%', textAlign: 'center'}}
+      style={validateText(message) ? {} : { color: 'red' , marginTop: '10%', textAlign: 'center'}}
       onMouseEnter={() => setIsActive(false)}
       onMouseLeave={() => (idx < messages.length) && setIsActive(true)}
     >
