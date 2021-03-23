@@ -10,7 +10,6 @@ const validateText = (text) => {
 
 const messages = [
   'hi everyone',
-  'hello, hello',
   'hola a todos',
   'welcome to my page',
   'this is my resume',
@@ -35,8 +34,8 @@ const useInterval = (callback, delay) => {
 };
 
 const EmailLink = () => {
-  const hold = 35; // ticks to wait after message is complete before rendering next message
-  const delay = 35; // tick length in mS
+  const hold = 50; // ticks to wait after message is complete before rendering next message
+  const delay =50; // tick length in mS
 
   const [idx, updateIter] = useState(0); // points to current message
   const [message, updateMessage] = useState(messages[idx]);
@@ -60,9 +59,10 @@ const EmailLink = () => {
   }, isActive ? delay : null);
 
   return (
+    <div className='divBox'>
     <div
       className="inline-container"
-      style={validateText(message) ? {} : { color: 'red' , marginTop: '10%', textAlign: 'center'}}
+      style={validateText(message) ? {} : { color: 'red' , marginRight: '15%'}}
       onMouseEnter={() => setIsActive(false)}
       onMouseLeave={() => (idx < messages.length) && setIsActive(true)}
     >
@@ -70,6 +70,7 @@ const EmailLink = () => {
         <span>{message}</span>
         <span>@marcosmanzo.com</span>
       </a>
+    </div>
     </div>
   );
 };
