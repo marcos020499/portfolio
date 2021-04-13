@@ -3,7 +3,6 @@ import './style.scss'
 import me1 from '../../Images/me13.png'
 import 'font-awesome/css/font-awesome.min.css';
 import { withRouter } from 'react-router-dom';
-import emailLink from './emailLink'
 
 class index extends Component {
 

@@ -52,8 +52,24 @@ body{
     position: static;
     margin-bottom: 10%;
 }
-
+.projectIos{
+    margin: 5%;
+    padding: 0 5% 5% 5%;
+    border: 1px solid gray;
+}
+.projectIosHome{
+    width: 40vh;
+    margin-left: 13%;
+}
+.projectIosCart{
+    width: 40vh;
+    margin-left: 13%;
+}
 @media screen and (max-width: 768px){
+    .project h2{
+        margin-top: 5%;
+        font-size: 3.5vw;
+    }
     .project h3{
        font-size: 4vw; 
     }
@@ -77,5 +93,16 @@ body{
     }
     .project p {
         font-size: 3.5vw;
+        text-align: justify;
+    }
+    .projectIosHome{
+        width: 40vh;
+        margin: 0% 0% 0% 5%;
+        padding: 0;
+    }
+    .projectIosCart{
+        width: 40vh;
+        margin: 0% 0% 0% 5%;
+        padding: 0;
     }
 }

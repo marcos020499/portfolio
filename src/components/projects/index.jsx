@@ -6,12 +6,19 @@ import googles from '../../Images/googles.png'
 import googles1 from '../../Images/googles1.png'
 import ecommerce from '../../Images/e-commerce.png'
 import ecommerce1 from '../../Images/e-commerce1.png'
+import ecommerceIos from '../../Images/ecommerceIphone.png'
+import ecommerceIos1 from '../../Images/ecommerceIphone1.png'
 
 class index extends Component {
     render() {
         return (
             <div className='project'>
                 <h2>My projects</h2>
+                <div className='projectIos'>
+                    <p>This application is made with react-native. is an e-commerce application where we can create, edit, delete, filter product, create, edit, delete, filter users. It has a node js / express / mongodb server and is a complete shopping application type amazon / free market</p>
+                    <img className='projectIosHome' src={ecommerceIos1} alt=""/>
+                    <img className='projectIosCart' src={ecommerceIos} alt=""/>
+                </div>
                 <div className='project-one'>
                     <p>In this project, I worked a small real estate website focused on the sale of houses, basically we have different properties each with different characteristics and what we do is enter the specifications of each of the properties. it was made with html, css, nodejs and javascript</p>
                     <img className='project1' src={bR} alt=""/>
