@@ -15,7 +15,7 @@ class index extends Component {
             <div className='project'>
                 <h2>My projects</h2>
                 <div className='projectIos'>
-                    <p>This application is made with react-native. is an e-commerce application where we can create, edit, delete, filter product, create, edit, delete, filter users. It has a node js / express / mongodb server and is a complete shopping application type amazon / free market</p>
+                    <p>This application is made with react-native. is an e-commerce application where we can create, edit, delete, filter product, create, edit, delete, filter users. It has a Nodejs/Express/MongoDB server and is a complete shopping application type amazon/mercado libre</p>
                     <img className='projectIosHome' src={ecommerceIos1} alt=""/>
                     <img className='projectIosCart' src={ecommerceIos} alt=""/>
                 </div>
